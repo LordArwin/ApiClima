@@ -7,7 +7,7 @@ function loadDoc(cod,cod2,cod3) {
   };
 
 
-// LINK DO WEB SERVISE DAS CONDIÇÕES VIA CPTEC INPE
+// LINK DO WEB SERVISE DAS CONDIÇÕES VIA CPTEC INPE na variavel "cod" coloque o codigo correspondente ao aeroporto da cidade desejada
   xhttp.open("GET", "http://servicos.cptec.inpe.br/XML/estacao/"+cod+"/condicoesAtuais.xml?", true);
   xhttp.send();
 
@@ -19,7 +19,8 @@ function loadDoc(cod,cod2,cod3) {
   };
 
 
-// LINK DO WEB SERVISE DAS CONDIÇÕES VIA CPTEC INPE
+
+// LINK DO WEB SERVISE DAS CONDIÇÕES VIA CPTEC INPE na variavel "cod" coloque o codigo correspondente ao aeroporto da cidade desejada
   xhttp2.open("GET", "http://servicos.cptec.inpe.br/XML/estacao/"+cod2+"/condicoesAtuais.xml?", true);
   xhttp2.send();
 
@@ -30,7 +31,7 @@ function loadDoc(cod,cod2,cod3) {
     }
   };
 
-// LINK DO WEB SERVISE DAS CONDIÇÕES VIA CPTEC INPE
+// LINK DO WEB SERVISE DAS CONDIÇÕES VIA CPTEC INPE na variavel "cod" coloque o codigo correspondente ao aeroporto da cidade desejada
 
   xhttp3.open("GET", "http://servicos.cptec.inpe.br/XML/estacao/"+cod3+"/condicoesAtuais.xml?", true);
   xhttp3.send();
